@@ -28,7 +28,33 @@ class UsersTableSeeder extends Seeder
                     'name' => 'Salim',
                     'email' => 'salim@applab.qa',
                     'password' => Hash::make('12345678'),
-                ]
+                 ],
+                 [
+                    'name' => 'John',
+                    'email' => 'john@mailinator.com',
+                    'password' => Hash::make('12345678'),
+                 ],
+                 [
+                    'name' => 'Prakash',
+                    'email' => 'prakash@mailinator.com',
+                    'password' => Hash::make('12345678'),
+                 ],
+                 [
+                    'name' => 'Abhimanyu',
+                    'email' => 'abhimanyu@mailinator.com',
+                    'password' => Hash::make('12345678'),
+                 ],
+                 [
+                    'name' => 'Sajith',
+                    'email' => 'sajith@mailinator.com',
+                    'password' => Hash::make('12345678'),
+                 ],
+                 [
+                    'name' => 'Jasim',
+                    'email' => 'jasim@mailinator.com',
+                    'password' => Hash::make('12345678'),
+                 ]
+
              ]);
     }
 }

@@ -5,14 +5,26 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Step;
+use App\Http\Resources\StepResource;
 
 class StepController extends Controller
 {
-    function index() {
+    function index(Request $request) {
         
+        $user = $request->user();
         $step = new Step();
-        $data = $step->getData();
-        response()->json(['data' => $user,
+        $data = $step->getClosestData($user->id);
+        $rank = $step->getRanking();
+        $data = [
+            'list' => [
+                'greater_steps' => StepResource::collection($data['greater_steps']),
+                'current_user' => new StepResource($data['current_user']),
+                'lower_steps' => StepResource::collection($data['lower_steps']),
+            ],
+            'rank' =>  StepResource::collection($rank)
+        ];
+
+        return response()->json(['data' => $data]);
     }
 
     function store(Request $request) {

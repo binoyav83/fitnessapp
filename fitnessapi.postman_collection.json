@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "5981feb9-c807-4eee-acbc-e966326b697a",
+		"name": "fitnessapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5490246"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "binoyav@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://fitness.local/api/login",
+					"protocol": "http",
+					"host": [
+						"fitness",
+						"local"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Login Api Call. "
+			},
+			"response": []
+		},
+		{
+			"name": "Steps",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "3|I32ddiaiBt9yGvunpxeGVIWjSFd2nxufO8selCeG4980d890",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "\"application/json\"",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://fitness.local/api/steps",
+					"protocol": "http",
+					"host": [
+						"fitness",
+						"local"
+					],
+					"path": [
+						"api",
+						"steps"
+					]
+				},
+				"description": "To get the steps count of users"
+			},
+			"response": []
+		},
+		{
+			"name": "post steps",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "2|4TxsKVfGB6NpKqBnLgDR7Upcg7FL2b7mSzfVuuVb5ceb67b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "\"application/json\"",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"stepsCount\": \"1000\",\r\n        \"start_time\": \"2024-08-07 00:00:00 +0000\",\r\n        \"end_time\": \"2024-08-07 23:59:59 +0000\"\r\n    },\r\n    {\r\n        \"stepsCount\": \"1500\",\r\n        \"start_time\": \"2024-08-06 00:00:00 +0000\",\r\n        \"end_time\": \"2024-08-06 23:59:59 +0000\"\r\n    },\r\n    {\r\n        \"stepsCount\": \"1400\",\r\n        \"start_time\": \"2024-08-05 00:00:00 +0000\",\r\n        \"end_time\": \"2024-08-05 23:59:59 +0000\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://fitness.local/api/steps",
+					"protocol": "http",
+					"host": [
+						"fitness",
+						"local"
+					],
+					"path": [
+						"api",
+						"steps"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "\n",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

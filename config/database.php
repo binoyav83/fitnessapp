@@ -61,6 +61,18 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
+        'mongodb' => [
+            'driver' => 'mongodb',
+           // 'dsn' => env('DB_SECOND_URI'),
+             'host' => env('DB_SECOND_HOST', '127.0.0.1'),
+             'port' => env('DB_SECOND_PORT', '27017'),
+             'database' => env('DB_SECOND_DATABASE', 'fitness'),
+             'username' => env('DB_SECOND_USERNAME', ''),
+             'password' => env('DB_SECOND_PASSWORD', ''),
+             'options'  => [
+                 'authSource' => env('DB_AUTH_SOURCE', 'admin'),
+             ]
+        ],
 
         'mariadb' => [
             'driver' => 'mariadb',

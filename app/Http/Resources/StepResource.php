@@ -15,7 +15,7 @@ class StepResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'stepsCount' => $this->step_count,
+            'stepsCount' => $this->stepsCount,
             'start_time' => $this->start_time->format('Y-m-d H:i:s O'),
             'end_time' => $this->end_time->format('Y-m-d H:i:s O'),
             'user' => $this->user

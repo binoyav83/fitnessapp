@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "66b50d5325b9d8bdc191bc39"
+  },
+  "user_id": 1,
+  "stepsCount": 7000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5e351e29d0c8d8c9a2760"
+  },
+  "user_id": 2,
+  "stepsCount": 8000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5e360e29d0c8d8c9a2761"
+  },
+  "user_id": 3,
+  "stepsCount": 9000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5e36be29d0c8d8c9a2762"
+  },
+  "user_id": 4,
+  "stepsCount": 4000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5e374e29d0c8d8c9a2763"
+  },
+  "user_id": 5,
+  "stepsCount": 3000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5e383e29d0c8d8c9a2764"
+  },
+  "user_id": 6,
+  "stepsCount": 30000,
+  "start_time": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-09T23:59:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5feaeff2cd1e9ec00f6b4"
+  },
+  "stepsCount": "1000",
+  "start_time": {
+    "$date": "2024-08-07T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-07T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:34:06.429Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:34:06.429Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5feaeff2cd1e9ec00f6b5"
+  },
+  "stepsCount": 1600,
+  "start_time": {
+    "$date": "2024-08-06T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-06T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:43:06.007Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:34:06.513Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5feaeff2cd1e9ec00f6b6"
+  },
+  "stepsCount": "1400",
+  "start_time": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-05T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:34:06.515Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:34:06.515Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5fff9ff2cd1e9ec00f6bd"
+  },
+  "stepsCount": 1000,
+  "start_time": {
+    "$date": "2024-08-07T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-07T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:39:37.252Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:39:37.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5fff9ff2cd1e9ec00f6be"
+  },
+  "stepsCount": 1500,
+  "start_time": {
+    "$date": "2024-08-06T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-06T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:39:37.254Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:39:37.254Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66b5fff9ff2cd1e9ec00f6bf"
+  },
+  "stepsCount": 1400,
+  "start_time": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  },
+  "end_time": {
+    "$date": "2024-08-05T23:59:59.000Z"
+  },
+  "user_id": 2,
+  "updated_at": {
+    "$date": "2024-08-09T11:39:37.257Z"
+  },
+  "created_at": {
+    "$date": "2024-08-09T11:39:37.257Z"
+  }
+}]
